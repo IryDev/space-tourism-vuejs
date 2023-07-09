@@ -1,0 +1,16 @@
+@use '../abstracts/variables';
+
+
+p{
+    font: variables.$body-text;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+}
