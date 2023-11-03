@@ -2,11 +2,10 @@
 @use '../abstracts/colors';
 
 .crew-container {
-  padding: 10rem 0 0 0rem;
+  padding: 10rem 0 0 8rem;
 }
 
 .crew-container > h2{
-    padding-left: 6rem;
     color: colors.$white;
 }
 
@@ -45,6 +44,7 @@
 
 .crew-info {
   display: flex;
+  flex: 1;
   flex-direction: column-reverse;
 }
 
